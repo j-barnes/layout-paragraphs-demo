@@ -1,0 +1,23 @@
+uuid: c16bbff6-1d7f-40e1-bc58-3d6a6af8cce4
+langcode: en
+status: true
+dependencies:
+  module:
+    - layout_paragraphs
+    - style_options
+id: section
+label: Section
+icon_uuid: null
+icon_default: null
+description: 'Generic section used for building layouts'
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_onecol: 'One column'
+      layout_twocol: 'Two column'
+      layout_twocol_bricks: 'Two column bricks'
+      layout_threecol_25_50_25: 'Three column 25/50/25'
+      layout_threecol_33_34_33: 'Three column 33/34/33'
+  style_options:
+    enabled: true
